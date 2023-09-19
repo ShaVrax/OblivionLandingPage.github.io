@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Buenard&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Buenard', Arial, Helvetica, sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+header{
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.logo img{
+    height: 35px;
+}
+
+.logo h2{
+    font-family: 'Yusei Magic';
+    font-size: 1.75rem;
+    letter-spacing: 3px;
+    color: #2B2B2B;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+nav i{
+    font-size: 25px;
+    color: #2B2B2B;
+}
+
+nav button{
+    background-color: #fff;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border: 2px solid #2B2B2B;
+    font-family: 'Yusei Magic';
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+/* hero */
+.hero{
+    height: 75vh;
+    background-image: url(/images/BG.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: contain;
+    position: relative;
+}
+
+.hero button{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-40%, -5%);
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: #2B2B2B;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-top: 3rem;
+    font-family: 'Yusei Magic';
+    letter-spacing: 2px;
+}
+
+/* story */
+.story{
+    height: 80vh;
+    background: url(/images/story.png);
+    filter: contrast(120%);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    flex-direction: column;
+    color: #fff;
+}
+
+.story div{
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 100%;
+    gap: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.story h2{
+    font-size: 3rem;
+    width: 35%;
+}
+
+.story p{
+    font-size: 1.25rem;
+    width: 35%;
+}
+
+/* signup */
+.signup{
+    height: 30vh;
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.signup h1{
+    font-size: 3.5rem;
+}
+
+.signup button{
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    border: 2px solid #363534;
+    margin-top: 1rem;
+    font-family: 'Yusei Magic';
+    letter-spacing: 2px;
+}
+
+.signup img{
+    width: 15rem;
+}
+
+/* media */
+.media{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #1a140e;
+}
+
+.media-content{
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.media-content h1{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.media-images{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.set{
+    display: flex;
+    width: 100%;
+}
+
+.set div{
+    height: 200px;
+    width: 350px;
+    overflow: hidden;
+}
+
+.media-images img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.media-content button{
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-top: 3rem;
+    font-family: 'Yusei Magic';
+    letter-spacing: 2px;
+}
+
+/* port */
+.port{
+    background-color: #2c2c2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 2rem 0;
+}
+
+.port img{
+    width: 50px;
+}
